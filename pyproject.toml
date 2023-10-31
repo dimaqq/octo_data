@@ -1,7 +1,11 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 [tool.poetry]
 name = "octo-data"
-  version = "1.0.0"
-    description = ""
+version = "1.0.0"
+description = ""
 authors = ["Dima Tisnek <dimaqq@gmail.com>"]
 license = "proprietary"
 readme = "readme.md"
@@ -14,7 +18,3 @@ parsy = "^2.1"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
 ipython = "^8.16.1"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
